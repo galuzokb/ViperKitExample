@@ -1,0 +1,24 @@
+### Headers settings
+company: galuzokb@gmail.com
+
+### Xcode project settings
+project_name: ViperKitExample
+xcodeproj_path: ViperKitExample.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: ViperKitExample
+
+# The file path for new modules
+project_file_path: /ViperKitExample/PresentationLayer/UserStories/
+
+### Dependencies settings section
+podfile_path: Podfile
+
+catalogs:
+- 'https://github.com/galuzokb/ViperKitModuleTemplate.git'
+
+### Templates
+templates:
+#- {name: galuzokb-viper-template, git: 'https://github.com/igrekde/remote_template'}
+- {name: galuzokb-viper-template}

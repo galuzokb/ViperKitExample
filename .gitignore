@@ -1,0 +1,7 @@
+Pods/
+Templates/
+xcuserdata/
+*.xcworkspace/
+.DS_Store
+output/
+derivedData/

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4YT-1H-aHL">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Segment Control Test-->
+        <scene sceneID="Eg0-BF-tYA">
+            <objects>
+                <navigationController id="4YT-1H-aHL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Segment Control Test" id="6Qc-3Z-XkB"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="KrE-8c-MmK">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.95686274510000002" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.95686274510000002" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="lI7-28-J3Y" kind="relationship" relationship="rootViewController" id="2vp-Qj-IFt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JNI-ec-4z2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-610" y="96"/>
+        </scene>
+        <!--Segment Control Test-->
+        <scene sceneID="7EI-wy-3xj">
+            <objects>
+                <viewController id="lI7-28-J3Y" customClass="SegmentControlTestViewController" customModule="ViperKitExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jAF-Tc-2QQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hp5-9f-bkf">
+                                <rect key="frame" x="50" y="30" width="275" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <color key="tintColor" red="0.95686274510000002" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="switchControllers:" destination="lI7-28-J3Y" eventType="valueChanged" id="jB3-ja-SOs"/>
+                                </connections>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IYW-P1-ak8">
+                                <rect key="frame" x="0.0" y="73" width="375" height="481"/>
+                                <connections>
+                                    <segue destination="1Pg-6u-Bmy" kind="embed" id="Kfg-F5-OIW"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ElH-2L-KD6">
+                                <rect key="frame" x="0.0" y="73" width="375" height="481"/>
+                                <connections>
+                                    <segue destination="wHa-pG-tmp" kind="embed" id="fKd-Eh-jAs"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ElH-2L-KD6" firstAttribute="trailing" secondItem="83b-as-Nnl" secondAttribute="trailing" id="3XD-Le-NyV"/>
+                            <constraint firstItem="hp5-9f-bkf" firstAttribute="top" secondItem="83b-as-Nnl" secondAttribute="top" constant="30" id="9HP-AI-wuD"/>
+                            <constraint firstItem="IYW-P1-ak8" firstAttribute="top" secondItem="hp5-9f-bkf" secondAttribute="bottom" constant="15" id="GEU-nx-gkM"/>
+                            <constraint firstItem="ElH-2L-KD6" firstAttribute="bottom" secondItem="83b-as-Nnl" secondAttribute="bottom" id="IWh-ZZ-JiV"/>
+                            <constraint firstItem="IYW-P1-ak8" firstAttribute="bottom" secondItem="83b-as-Nnl" secondAttribute="bottom" id="clX-ml-KeI"/>
+                            <constraint firstItem="ElH-2L-KD6" firstAttribute="top" secondItem="hp5-9f-bkf" secondAttribute="bottom" constant="15" id="erH-bC-dqa"/>
+                            <constraint firstItem="83b-as-Nnl" firstAttribute="trailing" secondItem="hp5-9f-bkf" secondAttribute="trailing" constant="50" id="jVr-cv-owD"/>
+                            <constraint firstItem="hp5-9f-bkf" firstAttribute="leading" secondItem="83b-as-Nnl" secondAttribute="leading" constant="50" id="lBH-ZB-Oil"/>
+                            <constraint firstItem="IYW-P1-ak8" firstAttribute="leading" secondItem="83b-as-Nnl" secondAttribute="leading" id="ld0-O2-Bjs"/>
+                            <constraint firstItem="ElH-2L-KD6" firstAttribute="leading" secondItem="83b-as-Nnl" secondAttribute="leading" id="vIv-hn-r92"/>
+                            <constraint firstItem="IYW-P1-ak8" firstAttribute="trailing" secondItem="83b-as-Nnl" secondAttribute="trailing" id="yYA-jV-dNT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="83b-as-Nnl"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Segment Control Test" id="3Im-6H-fK5"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="nil" keyPath="dipTag"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="firstContainerView" destination="IYW-P1-ak8" id="8hb-7Y-bh2"/>
+                        <outlet property="secondContainerView" destination="ElH-2L-KD6" id="7uQ-P3-wOD"/>
+                        <outlet property="segmentControl" destination="hp5-9f-bkf" id="Ngm-Tw-CUD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dms-vw-k5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="277.60000000000002" y="95.802098950524751"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="mid-3W-aDK">
+            <objects>
+                <viewController id="1Pg-6u-Bmy" customClass="FirstViewController" customModule="ViperKitExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iUR-qp-ifO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="481"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.38887011999999999" green="0.79943722490000002" blue="0.1371691823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="nil" keyPath="dipTag"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zKT-3i-Yae" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1074" y="-75"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="KSw-7W-Njh">
+            <objects>
+                <viewController id="wHa-pG-tmp" customClass="SecondViewController" customModule="ViperKitExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5VU-y5-M3D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="481"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.26274509800000001" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="glX-8F-ppQ"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="nil" keyPath="dipTag"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SLr-HE-tlA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1073" y="594"/>
+        </scene>
+    </scenes>
+</document>

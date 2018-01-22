@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JaF-st-5Ym">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="n1z-bo-Ncd">
+            <objects>
+                <viewController id="JaF-st-5Ym" customClass="SplashViewController" customModule="ViperKitExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nP5-JK-ry8"/>
+                        <viewControllerLayoutGuide type="bottom" id="tdc-13-1nx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Vl-Ru-7hq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ViperKit Example App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7E-sM-I2D">
+                                <rect key="frame" x="85.5" y="321.5" width="204.5" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kirill Galuzo galuzokb@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctw-Ea-atY">
+                                <rect key="frame" x="92.5" y="642.5" width="190.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="T7E-sM-I2D" firstAttribute="centerY" secondItem="5Vl-Ru-7hq" secondAttribute="centerY" id="SMq-sr-lXP"/>
+                            <constraint firstItem="ctw-Ea-atY" firstAttribute="centerX" secondItem="5Vl-Ru-7hq" secondAttribute="centerX" id="SYM-OA-v5x"/>
+                            <constraint firstItem="tdc-13-1nx" firstAttribute="top" secondItem="ctw-Ea-atY" secondAttribute="bottom" constant="10" id="Wvm-Ea-lCH"/>
+                            <constraint firstItem="T7E-sM-I2D" firstAttribute="centerX" secondItem="5Vl-Ru-7hq" secondAttribute="centerX" id="nTe-Ip-CIW"/>
+                        </constraints>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="nil" keyPath="dipTag"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="YzE-Wf-929" kind="presentation" identifier="signin" id="KAP-It-FoX"/>
+                        <segue destination="zlI-jj-dvW" kind="presentation" identifier="main" id="dvV-jU-xON"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l6P-Mo-pcv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122" y="55"/>
+        </scene>
+        <!--Signin-->
+        <scene sceneID="0sF-Uo-zF3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Signin" id="YzE-Wf-929" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ear-f7-Yge" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657" y="-26"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="mOc-L5-q5m">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="zlI-jj-dvW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ADW-qU-fuD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="656" y="141"/>
+        </scene>
+    </scenes>
+</document>
