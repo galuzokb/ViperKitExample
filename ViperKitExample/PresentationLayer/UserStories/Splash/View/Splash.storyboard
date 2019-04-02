@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JaF-st-5Ym">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JaF-st-5Ym">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Splash View Controller-->
         <scene sceneID="n1z-bo-Ncd">
             <objects>
-                <viewController id="JaF-st-5Ym" customClass="SplashViewController" customModule="ViperKitExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Splash" id="JaF-st-5Ym" customClass="SplashViewController" customModule="ViperKitExample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nP5-JK-ry8"/>
                         <viewControllerLayoutGuide type="bottom" id="tdc-13-1nx"/>
@@ -35,6 +35,9 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration" identifier="Splash Background View" label="Splash Background View">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                         <constraints>
                             <constraint firstItem="T7E-sM-I2D" firstAttribute="centerY" secondItem="5Vl-Ru-7hq" secondAttribute="centerY" id="SMq-sr-lXP"/>
                             <constraint firstItem="ctw-Ea-atY" firstAttribute="centerX" secondItem="5Vl-Ru-7hq" secondAttribute="centerX" id="SYM-OA-v5x"/>

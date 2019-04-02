@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import ViperKit
 
-class SplashViewController: BaseViewController {
+class SplashViewController: ViperKitExampleBaseViewController {
     var output: SplashViewOutput!
     var moduleInput: ModuleInput!
     

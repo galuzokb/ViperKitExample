@@ -19,17 +19,7 @@ class PostsTableViewCell: UITableViewCell {
     @IBOutlet weak var idLbl: UILabel!
     @IBOutlet weak var titleLbl: UILabel!
     
-    var item: Post? {
-        didSet {
-            if let item = item {
-                idLbl.text = item.id.description
-                titleLbl.text = item.title
-            } else {
-                idLbl.text = nil
-                titleLbl.text = nil
-            }
-        }
-    }
+    var item: Post?
     
     override func prepareForReuse() {
         super.prepareForReuse()
@@ -37,9 +27,24 @@ class PostsTableViewCell: UITableViewCell {
         delegate = nil
     }
     
+    private func setup() {
+        if let item = item {
+            idLbl.text = item.id.description
+            titleLbl.text = item.title
+        } else {
+            idLbl.text = nil
+            titleLbl.text = nil
+        }
+    }
+    
     @IBAction func deletePost(_ sender: UIButton) {
         if let post = item {
             delegate?.deletePost(post)
         }
+    }
+    
+    func setPost(_ post: Post) {
+        self.item = post
+        setup()
     }
 }

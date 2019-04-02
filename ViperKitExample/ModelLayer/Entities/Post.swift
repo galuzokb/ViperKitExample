@@ -29,3 +29,9 @@ extension Post: ImmutableMappable {
         body    <- map["body"]
     }
 }
+
+extension Post: Equatable {
+    static func ==(lhs: Post, rhs: Post) -> Bool {
+        return lhs.id == rhs.id && lhs.userID == rhs.userID && lhs.title == rhs.title && lhs.body == rhs.body
+    }
+}

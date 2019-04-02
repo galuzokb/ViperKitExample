@@ -9,4 +9,5 @@
 import ViperKit
 
 protocol MainRouterInput {
+    func close()
 }

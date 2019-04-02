@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import ViperKit
 
-class CreatePostViewController: BaseViewController {
+class CreatePostViewController: ViperKitExampleBaseViewController {
     var output: CreatePostViewOutput!
     var moduleInput: ModuleInput!
     

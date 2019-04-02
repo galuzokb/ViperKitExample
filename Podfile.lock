@@ -3,6 +3,10 @@ PODS:
   - Dip (6.0)
   - Dip-UI (2.0):
     - Dip (~> 6.0)
+  - KIF (3.7.2):
+    - KIF/Core (= 3.7.2)
+  - KIF/Core (3.7.2)
+  - Nimble (7.1.1)
   - ObjectMapper (3.1.0)
   - PKHUD (5.0.0)
   - PromiseKit (4.5.1):
@@ -16,36 +20,51 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (4.5.1):
     - PromiseKit/CorePromise
-  - ViperKit (0.0.4):
+  - ViperKit (0.0.7):
     - Dip
     - Dip-UI
 
 DEPENDENCIES:
   - Alamofire
+  - KIF
+  - Nimble
   - ObjectMapper
   - PKHUD
   - PromiseKit
-  - ViperKit (from `https://github.com/galuzokb/ViperKit`, tag `0.0.4`)
+  - ViperKit (from `https://github.com/galuzokb/ViperKit`, tag `0.0.9`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Dip
+    - Dip-UI
+    - KIF
+    - Nimble
+    - ObjectMapper
+    - PKHUD
+    - PromiseKit
 
 EXTERNAL SOURCES:
   ViperKit:
     :git: https://github.com/galuzokb/ViperKit
-    :tag: 0.0.4
+    :tag: 0.0.9
 
 CHECKOUT OPTIONS:
   ViperKit:
     :git: https://github.com/galuzokb/ViperKit
-    :tag: 0.0.4
+    :tag: 0.0.9
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   Dip: 316ad036509eaf3ef78e19699f32a9e01a5b3c3e
   Dip-UI: 80616044fdf76a86f6504d33d5f0b20c82df71e3
+  KIF: a01333c63303557730ec74dabbc7a661185ced9f
+  Nimble: 391f07782af4b37914f9bd7b2ffbb952731b8202
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
   PromiseKit: 445dac9b2c3c3b4b31b5f842bc325700b848a8bd
-  ViperKit: 74e5555afdfc63a3861545ce2e74b63dc2d7270c
+  ViperKit: c91d188f7179b07e0401184a7d06f2bfafeec918
 
-PODFILE CHECKSUM: 077fa1da93a9f5d85eb2fa2cff12b45ff1b4cc14
+PODFILE CHECKSUM: 951c4632fe06423c455ffe71c7866c8259d8a901
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.0

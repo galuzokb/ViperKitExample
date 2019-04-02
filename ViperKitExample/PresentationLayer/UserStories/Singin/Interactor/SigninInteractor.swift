@@ -19,10 +19,10 @@ class SigninInteractor: SigninInteractorInput {
     }
     
     func signin(withCredentials credentials: SigninCredentials) {
-        if service.signin(credentials) {
-            output?.success()
+        if let authError = service.signin(credentials) {
+            output?.failure(authError)
         } else {
-            output?.failure()
+            output?.success()
         }
     }
 }

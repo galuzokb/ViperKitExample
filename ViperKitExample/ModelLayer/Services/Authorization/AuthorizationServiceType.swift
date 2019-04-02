@@ -10,6 +10,6 @@ import Foundation
 
 protocol AuthorizationServiceType {
     var isAuthorized: Bool { get }
-    func signin(_ credentials: SigninCredentials) -> Bool
+    func signin(_ credentials: SigninCredentials) -> AuthErrorType?
     func logout()
 }

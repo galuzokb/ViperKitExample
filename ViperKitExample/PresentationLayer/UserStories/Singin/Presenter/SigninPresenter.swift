@@ -33,13 +33,16 @@ extension SigninPresenter: SigninViewOutput {
     }
     
     func onSignin(username: String?, password: String?) {
-        guard
-            let username = username,
-            let password = password
-        else {
-            view?.showError(message: "Please, enter credentials first!")
+        guard let username = username else {
+            view?.showError(message: "Please, enter username!")
             return
         }
+        
+        guard let password = password else {
+            view?.showError(message: "Please, enter password!")
+            return
+        }
+        
         interactor.signin(withCredentials: SigninCredentials(username: username, password: password))
     }
 }
@@ -51,7 +54,14 @@ extension SigninPresenter: SigninInteractorOutput {
         router.openMain()
     }
     
-    func failure() {
-        view?.showError(message: "Wrong credentials!")
+    func failure(_ authError: AuthErrorType) {
+        switch authError {
+        case .wrongUsername:
+            view?.showError(message: "Wrong username!")
+        case .wrongPassword:
+            view?.showError(message: "Wrong password!")
+        case .wrongCredentials:
+            view?.showError(message: "Wrong credentials!")
+        }
     }
 }

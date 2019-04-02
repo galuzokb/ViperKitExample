@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import ViperKit
 
-class SegmentControlTestViewController: BaseViewController {
+class SegmentControlTestViewController: ViperKitExampleBaseViewController {
     var output: SegmentControlTestViewOutput!
     var moduleInput: ModuleInput!
     

@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import ViperKit
 
-class PostsViewController: BaseViewController {
+class PostsViewController: ViperKitExampleBaseViewController {
     var output: PostsViewOutput!
     var moduleInput: ModuleInput!
     
@@ -58,11 +58,12 @@ extension PostsViewController: PostsViewInput {
     
     func setupInitialState() {
         self.view.gestureRecognizers?.removeLast()
-        someTextLbl.text = "Some text here"
+        someTextLbl.text = "Old Text Here"
         tableView.refreshControl = UIRefreshControl()
         tableView.refreshControl?.addTarget(self, action: #selector(refreshPosts), for: .valueChanged)
         tableView.refreshControl?.tintColor = UIColor(red:0.25, green:0.72, blue:0.85, alpha:1.0)
         tableView.refreshControl?.attributedTitle = NSAttributedString(string: "Fetching Posts ...", attributes: [:])
+        tableView.refreshControl?.accessibilityLabel = "Posts Table View Refresh Control"
     }
     
     func setupDisplayManager() {

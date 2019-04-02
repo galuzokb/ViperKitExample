@@ -60,7 +60,7 @@ extension PostsDisplayManager: UITableViewDataSource, UITableViewDelegate {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "postsCell") as? PostsTableViewCell else {
             fatalError("Can't dequeue reusable cell with id \"PostsCell\"")
         }
-        cell.item = items[indexPath.row]
+        cell.setPost(items[indexPath.row])
         cell.delegate = self
         return cell
     }

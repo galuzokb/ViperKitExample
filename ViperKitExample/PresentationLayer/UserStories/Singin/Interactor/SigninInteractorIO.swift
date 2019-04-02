@@ -18,5 +18,5 @@ protocol SigninInteractorInput {
 
 protocol SigninInteractorOutput: class {
     func success()
-    func failure()
+    func failure(_ authError: AuthErrorType)
 }

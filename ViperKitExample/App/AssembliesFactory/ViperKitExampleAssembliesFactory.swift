@@ -37,6 +37,7 @@ class ViperKitExampleAssembliesFactory: AssembliesFactory {
         container.register(.eagerSingleton) { SegmentControlTestModuleAssembly(withCollaborator: $0) }
         container.register(.eagerSingleton) { FirstModuleAssembly(withCollaborator: $0) }
         container.register(.eagerSingleton) { SecondModuleAssembly(withCollaborator: $0) }
+        container.register(.eagerSingleton) { MainModuleAssembly(withCollaborator: $0) }
     }
 }
 

@@ -10,8 +10,7 @@ import UIKit
 import ViperKit
 import PKHUD
 
-extension BaseViewController: ViewInput {
-    
+class ViperKitExampleBaseViewController: BaseViewController, ViewInput {
     open override func viewDidLoad() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         view.addGestureRecognizer(tap)
@@ -19,6 +18,7 @@ extension BaseViewController: ViewInput {
     
     public func startIndication() {
         HUD.show(.progress)
+        PKHUD.sharedHUD.contentView = MyHUD()
     }
     
     public func stopIndication() {
@@ -30,9 +30,7 @@ extension BaseViewController: ViewInput {
     }
     
     public func showMessage(message: String) {
-        let alertController = UIAlertController(title: "Message", message: message, preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default) { _ in })
-        present(alertController, animated: true)
+        showAlert("Message", message: message)
     }
     
     public func showError() {
@@ -40,14 +38,21 @@ extension BaseViewController: ViewInput {
     }
     
     public func showError(message: String) {
-        let alertController = UIAlertController(title: "Error", message: message, preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default) { _ in })
-        present(alertController, animated: true)
+        showAlert("Error", message: message)
     }
-}
-
-extension BaseViewController {
+    
+    private func showAlert(_ title: String, message: String) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in
+            let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+            okAction.accessibilityLabel = "OK"
+            alertController.addAction(okAction)
+            self?.present(alertController, animated: true)
+        }
+    }
+    
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
 }
+

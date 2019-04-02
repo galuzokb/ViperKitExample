@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import ViperKit
 
-class TextEditViewController: BaseViewController {
+class TextEditViewController: ViperKitExampleBaseViewController {
     var output: TextEditViewOutput!
     var moduleInput: ModuleInput!
     

@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import ViperKit
 
-class SigninViewController: BaseViewController {
+class SigninViewController: ViperKitExampleBaseViewController, SigninViewInput {
     var output: SigninViewOutput!
     var moduleInput: ModuleInput!
     
@@ -25,13 +25,19 @@ class SigninViewController: BaseViewController {
     @IBAction func signin(_ sender: UIButton) {
         output.onSignin(username: usernameTF.text, password: passwordTF.text)
     }
-}
-
-extension SigninViewController: SigninViewInput {
+    
+    // MARK: - Signin View Input
     
     func setupInitialState() {
         print("asdasd")
     }
 }
+
+//extension SigninViewController: SigninViewInput {
+//    
+//    func setupInitialState() {
+//        print("asdasd")
+//    }
+//}
 
 extension SigninViewController: ModuleInputProvider {}

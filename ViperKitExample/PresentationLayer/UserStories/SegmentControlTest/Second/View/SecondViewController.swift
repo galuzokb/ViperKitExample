@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import ViperKit
 
-class SecondViewController: BaseViewController {
+class SecondViewController: ViperKitExampleBaseViewController {
     var output: SecondViewOutput!
     var moduleInput: ModuleInput!
     

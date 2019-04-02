@@ -48,6 +48,8 @@
 		5E58BBAD9A552475713EA141 /* PostsInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7182E7796E9D2F9D062BD479 /* PostsInteractorIO.swift */; };
 		5EEAC6721A5D9ED770586853 /* SegmentControlTestInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812DC41FDB430E489748D118 /* SegmentControlTestInteractorIO.swift */; };
 		62D42F9CA9A7550947B66C3B /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F84D6F503903A317485C9C /* PostsViewController.swift */; };
+		63F7118AD30E1CE45AB69388 /* Pods_ViperKitExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A76862B1DC6C7476A986F56 /* Pods_ViperKitExampleTests.framework */; };
+		66AF64D4271260303CA73F02 /* Pods_ViperKitExample_ViperKitExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9775C31296516C6C9A9288F9 /* Pods_ViperKitExample_ViperKitExampleUITests.framework */; };
 		705133B824C1F78A8424E440 /* PostViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2BA89F9A581531904C41B5 /* PostViewIO.swift */; };
 		71A77A6B33F2DDE27DECCC84 /* FirstInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C50B0BB5536A3BF1926B34 /* FirstInteractor.swift */; };
 		7684468F20FB66EAA586CDF4 /* MainRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BF2C319A0D5DEC850B200 /* MainRouterInput.swift */; };
@@ -71,6 +73,24 @@
 		84AF6FE120119D820016F987 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF6FE020119D820016F987 /* Comment.swift */; };
 		84AF6FE32011A4740016F987 /* SearchDisplayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF6FE22011A4740016F987 /* SearchDisplayManager.swift */; };
 		84AF6FE52011D9FA0016F987 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF6FE42011D9FA0016F987 /* BaseTableViewController.swift */; };
+		84B7E42920D7808000B5A4C4 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E42820D7808000B5A4C4 /* UIConstants.swift */; };
+		84B7E42C20D780A300B5A4C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E42B20D780A300B5A4C4 /* Extensions.swift */; };
+		84B7E42F20D780BF00B5A4C4 /* BaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E42E20D780BF00B5A4C4 /* BaseUITests.swift */; };
+		84B7E43120D780D400B5A4C4 /* SigninUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E43020D780D400B5A4C4 /* SigninUITests.swift */; };
+		84B7E43420D780F000B5A4C4 /* CommonSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E43320D780F000B5A4C4 /* CommonSteps.swift */; };
+		84B7E43620D780FA00B5A4C4 /* SigninSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E43520D780FA00B5A4C4 /* SigninSteps.swift */; };
+		84B7E43B20D7B63A00B5A4C4 /* PostsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E43A20D7B63A00B5A4C4 /* PostsUITests.swift */; };
+		84B7E43D20D7B83D00B5A4C4 /* PostsSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E43C20D7B83D00B5A4C4 /* PostsSteps.swift */; };
+		84B7E44320DBB38F00B5A4C4 /* ViperKitExamplePKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E44220DBB38F00B5A4C4 /* ViperKitExamplePKHUD.swift */; };
+		84B7E44520DBB71700B5A4C4 /* TextEditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E44420DBB71700B5A4C4 /* TextEditUITests.swift */; };
+		84B7E44720DBB78400B5A4C4 /* EditTextSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E44620DBB78400B5A4C4 /* EditTextSteps.swift */; };
+		84B7E44B20DCB92900B5A4C4 /* PostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E44A20DCB92900B5A4C4 /* PostUITests.swift */; };
+		84B7E44D20DCB94700B5A4C4 /* PostSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E44C20DCB94700B5A4C4 /* PostSteps.swift */; };
+		84B7E45020E0B85900B5A4C4 /* UIStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E44F20E0B85900B5A4C4 /* UIStorage.swift */; };
+		84B7E4B720E1FBAD00B5A4C4 /* SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E4B620E1FBAD00B5A4C4 /* SearchUITests.swift */; };
+		84B7E4B920E1FBCA00B5A4C4 /* SearchSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E4B820E1FBCA00B5A4C4 /* SearchSteps.swift */; };
+		84B7E4BE20E2284A00B5A4C4 /* SplashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E4BD20E2284A00B5A4C4 /* SplashTests.swift */; };
+		84B7E4C320E22D7600B5A4C4 /* SplashMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7E4C220E22D7600B5A4C4 /* SplashMocks.swift */; };
 		84BAE09620071D120017D436 /* SplashModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE09520071D120017D436 /* SplashModuleInput.swift */; };
 		84BAE09820071D1C0017D436 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE09720071D1C0017D436 /* SplashPresenter.swift */; };
 		84BAE09B20071E220017D436 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAE09A20071E220017D436 /* SplashRouter.swift */; };
@@ -126,6 +146,43 @@
 		84C76958200F3CC100BAEF9E /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C76957200F3CC100BAEF9E /* Search.storyboard */; };
 		84C7695A200F41C300BAEF9E /* SegmentControlTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C76959200F41C300BAEF9E /* SegmentControlTest.storyboard */; };
 		84C9E1D12008C1630017DA0B /* Posts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C9E1D02008C1630017DA0B /* Posts.storyboard */; };
+		84D0974420D394A600E0851C /* KIF+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0974320D394A600E0851C /* KIF+extensions.swift */; };
+		84D0974C20D3959200E0851C /* BaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0974B20D3959200E0851C /* BaseUITests.swift */; };
+		84D0974E20D3979900E0851C /* SigninSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0974D20D3979900E0851C /* SigninSteps.swift */; };
+		84D0975020D397B600E0851C /* SigninTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0974F20D397B600E0851C /* SigninTests.swift */; };
+		84D0975320D3988B00E0851C /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0975220D3988B00E0851C /* UIConstants.swift */; };
+		84D0975520D39C8600E0851C /* CommonSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0975420D39C8600E0851C /* CommonSteps.swift */; };
+		84D0975720D3B85300E0851C /* DefaultTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0975620D3B85300E0851C /* DefaultTest.swift */; };
+		84E7549420E5E532000401C1 /* SigninMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7549320E5E532000401C1 /* SigninMocks.swift */; };
+		84E7549620E5F08E000401C1 /* SigninTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7549520E5F08E000401C1 /* SigninTests.swift */; };
+		84E754BA20E9D3C2000401C1 /* PostsMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754B920E9D3C2000401C1 /* PostsMocks.swift */; };
+		84E754BC20E9D427000401C1 /* MockServicesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754BB20E9D427000401C1 /* MockServicesAssembly.swift */; };
+		84E754BF20E9D941000401C1 /* AuthorizationServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754BE20E9D941000401C1 /* AuthorizationServiceStub.swift */; };
+		84E754C120E9D9AF000401C1 /* PostServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754C020E9D9AF000401C1 /* PostServiceStub.swift */; };
+		84E754C320E9DEE2000401C1 /* PostsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754C220E9DEE2000401C1 /* PostsTests.swift */; };
+		84E754C520EA05AF000401C1 /* PostsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754C420EA05AF000401C1 /* PostsViewControllerTests.swift */; };
+		84E754C720EA05BB000401C1 /* PostsDisplayManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754C620EA05BB000401C1 /* PostsDisplayManagerTests.swift */; };
+		84E754C920EA05C7000401C1 /* PostsTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754C820EA05C7000401C1 /* PostsTableViewCellTests.swift */; };
+		84E754CB20EA1B84000401C1 /* MockBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754CA20EA1B84000401C1 /* MockBaseViewController.swift */; };
+		84E754CD20EA1CE3000401C1 /* MockBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754CC20EA1CE3000401C1 /* MockBaseTableViewController.swift */; };
+		84E754CF20EA3464000401C1 /* PostsOutletsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754CE20EA3464000401C1 /* PostsOutletsTests.swift */; };
+		84E754D420EB2A14000401C1 /* PostsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754D320EB2A14000401C1 /* PostsPresenterTests.swift */; };
+		84E754D620EB36E5000401C1 /* PostsRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754D520EB36E5000401C1 /* PostsRouterTests.swift */; };
+		84E754D820EB36F7000401C1 /* PostsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754D720EB36F7000401C1 /* PostsInteractorTests.swift */; };
+		84E754DB20EB4D34000401C1 /* EditTextMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754DA20EB4D34000401C1 /* EditTextMocks.swift */; };
+		84E754DE20EB76B6000401C1 /* PostMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754DD20EB76B6000401C1 /* PostMocks.swift */; };
+		84E754E020EC7C68000401C1 /* TextEditBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754DF20EC7C68000401C1 /* TextEditBaseTests.swift */; };
+		84E754E320EC7E18000401C1 /* TextEditViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754E220EC7E18000401C1 /* TextEditViewControllerTests.swift */; };
+		84E754E520EC88FC000401C1 /* TextEditPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754E420EC88FC000401C1 /* TextEditPresenterTests.swift */; };
+		84E754E720EC9566000401C1 /* TextEditRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754E620EC9565000401C1 /* TextEditRouterTests.swift */; };
+		84E754E920EC9ADA000401C1 /* PostBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754E820EC9ADA000401C1 /* PostBaseTests.swift */; };
+		84E754EB20EC9B79000401C1 /* PostViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754EA20EC9B79000401C1 /* PostViewControllerTests.swift */; };
+		84E754ED20ECA168000401C1 /* PostPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754EC20ECA168000401C1 /* PostPresenterTests.swift */; };
+		84E754EF20ECCBF5000401C1 /* PostRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754EE20ECCBF5000401C1 /* PostRouterTests.swift */; };
+		84E754F120ECCC9D000401C1 /* PostInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754F020ECCC9D000401C1 /* PostInteractorTests.swift */; };
+		84E754F320ECDDD6000401C1 /* TextEditOutletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754F220ECDDD5000401C1 /* TextEditOutletTests.swift */; };
+		84E754F520ECDF82000401C1 /* PostOutletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E754F420ECDF82000401C1 /* PostOutletTests.swift */; };
+		84E7550620EF6014000401C1 /* CreatePostMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7550520EF6014000401C1 /* CreatePostMocks.swift */; };
 		85EBCE0E41BDFD2D327ACDE6 /* SegmentControlTestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429F974B17C52E0FF74168D /* SegmentControlTestInteractor.swift */; };
 		8944545B03F4D3D75ACCAB93 /* TextEditInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC0E51198BD2E893294165 /* TextEditInteractor.swift */; };
 		8B14F831B4D7688ABDE4AE9E /* SegmentControlTestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F240E14A8D6606BAB25640 /* SegmentControlTestRouter.swift */; };
@@ -170,6 +227,13 @@
 			remoteGlobalIDString = 8410BDEC20033CB500508AD5;
 			remoteInfo = ViperKitExample;
 		};
+		84D0973E20D3939800E0851C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8410BDE520033CB500508AD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8410BDEC20033CB500508AD5;
+			remoteInfo = ViperKitExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -187,6 +251,7 @@
 		2013C45F41527776D56C9E60 /* SecondViewIO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondViewIO.swift; sourceTree = "<group>"; };
 		21F84D6F503903A317485C9C /* PostsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		23E8DB828C133EFC391CA2BE /* FirstAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstAssembly.swift; sourceTree = "<group>"; };
+		2588E927BC252CEB76DAC4A5 /* Pods-ViperKitExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperKitExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperKitExampleTests/Pods-ViperKitExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		2ABFC45A93463F8327029C21 /* TextEditAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextEditAssembly.swift; sourceTree = "<group>"; };
 		32E23C1F5895209CCCCF5F1D /* SearchRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
 		332631AAB324F047C249AF28 /* SecondModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleInput.swift; sourceTree = "<group>"; };
@@ -210,6 +275,8 @@
 		7182E7796E9D2F9D062BD479 /* PostsInteractorIO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsInteractorIO.swift; sourceTree = "<group>"; };
 		767356E27C1918F602ABE2CD /* PostsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsRouter.swift; sourceTree = "<group>"; };
 		7831A25B825AC9488A02263D /* SecondViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		78E688E85D935D4A5D19791F /* Pods_ViperKitExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperKitExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A76862B1DC6C7476A986F56 /* Pods_ViperKitExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperKitExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8065BFE7C77604016AD101 /* TextEditRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextEditRouter.swift; sourceTree = "<group>"; };
 		812DC41FDB430E489748D118 /* SegmentControlTestInteractorIO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentControlTestInteractorIO.swift; sourceTree = "<group>"; };
 		8410BDED20033CB500508AD5 /* ViperKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,6 +295,7 @@
 		8410BF562006276100508AD5 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		8410BF582006282900508AD5 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		8410BF5A2006283600508AD5 /* SplashViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewIO.swift; sourceTree = "<group>"; };
+		8485A8BA51A452211ED92F70 /* Pods-ViperKitExample-ViperKitExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperKitExample-ViperKitExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperKitExample-ViperKitExampleUITests/Pods-ViperKitExample-ViperKitExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		84AF6FD7201060F40016F987 /* KeyboardLayoutConstaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstaint.swift; sourceTree = "<group>"; };
 		84AF6FD92010617C0016F987 /* EmptySegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySegue.swift; sourceTree = "<group>"; };
 		84AF6FDB201061FB0016F987 /* SegmentSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentSegue.swift; sourceTree = "<group>"; };
@@ -235,6 +303,26 @@
 		84AF6FE020119D820016F987 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		84AF6FE22011A4740016F987 /* SearchDisplayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDisplayManager.swift; sourceTree = "<group>"; };
 		84AF6FE42011D9FA0016F987 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		84B7E42520D77CE300B5A4C4 /* KIF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KIF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B7E42820D7808000B5A4C4 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		84B7E42B20D780A300B5A4C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		84B7E42E20D780BF00B5A4C4 /* BaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITests.swift; sourceTree = "<group>"; };
+		84B7E43020D780D400B5A4C4 /* SigninUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninUITests.swift; sourceTree = "<group>"; };
+		84B7E43320D780F000B5A4C4 /* CommonSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSteps.swift; sourceTree = "<group>"; };
+		84B7E43520D780FA00B5A4C4 /* SigninSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninSteps.swift; sourceTree = "<group>"; };
+		84B7E43720D7812300B5A4C4 /* ViperKitExampleTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViperKitExampleTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		84B7E43A20D7B63A00B5A4C4 /* PostsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsUITests.swift; sourceTree = "<group>"; };
+		84B7E43C20D7B83D00B5A4C4 /* PostsSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsSteps.swift; sourceTree = "<group>"; };
+		84B7E44220DBB38F00B5A4C4 /* ViperKitExamplePKHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperKitExamplePKHUD.swift; sourceTree = "<group>"; };
+		84B7E44420DBB71700B5A4C4 /* TextEditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditUITests.swift; sourceTree = "<group>"; };
+		84B7E44620DBB78400B5A4C4 /* EditTextSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextSteps.swift; sourceTree = "<group>"; };
+		84B7E44A20DCB92900B5A4C4 /* PostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUITests.swift; sourceTree = "<group>"; };
+		84B7E44C20DCB94700B5A4C4 /* PostSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSteps.swift; sourceTree = "<group>"; };
+		84B7E44F20E0B85900B5A4C4 /* UIStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStorage.swift; sourceTree = "<group>"; };
+		84B7E4B620E1FBAD00B5A4C4 /* SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUITests.swift; sourceTree = "<group>"; };
+		84B7E4B820E1FBCA00B5A4C4 /* SearchSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSteps.swift; sourceTree = "<group>"; };
+		84B7E4BD20E2284A00B5A4C4 /* SplashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashTests.swift; sourceTree = "<group>"; };
+		84B7E4C220E22D7600B5A4C4 /* SplashMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashMocks.swift; sourceTree = "<group>"; };
 		84BAE09520071D120017D436 /* SplashModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashModuleInput.swift; sourceTree = "<group>"; };
 		84BAE09720071D1C0017D436 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
 		84BAE09A20071E220017D436 /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
@@ -290,11 +378,52 @@
 		84C76957200F3CC100BAEF9E /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		84C76959200F41C300BAEF9E /* SegmentControlTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SegmentControlTest.storyboard; sourceTree = "<group>"; };
 		84C9E1D02008C1630017DA0B /* Posts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Posts.storyboard; sourceTree = "<group>"; };
+		84D0973920D3939800E0851C /* ViperKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D0973D20D3939800E0851C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D0974320D394A600E0851C /* KIF+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KIF+extensions.swift"; sourceTree = "<group>"; };
+		84D0974520D394F300E0851C /* ViperKitExampleUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViperKitExampleUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		84D0974B20D3959200E0851C /* BaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITests.swift; sourceTree = "<group>"; };
+		84D0974D20D3979900E0851C /* SigninSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninSteps.swift; sourceTree = "<group>"; };
+		84D0974F20D397B600E0851C /* SigninTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninTests.swift; sourceTree = "<group>"; };
+		84D0975220D3988B00E0851C /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		84D0975420D39C8600E0851C /* CommonSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSteps.swift; sourceTree = "<group>"; };
+		84D0975620D3B85300E0851C /* DefaultTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTest.swift; sourceTree = "<group>"; };
+		84E7549320E5E532000401C1 /* SigninMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninMocks.swift; sourceTree = "<group>"; };
+		84E7549520E5F08E000401C1 /* SigninTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninTests.swift; sourceTree = "<group>"; };
+		84E754B920E9D3C2000401C1 /* PostsMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsMocks.swift; sourceTree = "<group>"; };
+		84E754BB20E9D427000401C1 /* MockServicesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServicesAssembly.swift; sourceTree = "<group>"; };
+		84E754BE20E9D941000401C1 /* AuthorizationServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationServiceStub.swift; sourceTree = "<group>"; };
+		84E754C020E9D9AF000401C1 /* PostServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostServiceStub.swift; sourceTree = "<group>"; };
+		84E754C220E9DEE2000401C1 /* PostsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTests.swift; sourceTree = "<group>"; };
+		84E754C420EA05AF000401C1 /* PostsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewControllerTests.swift; sourceTree = "<group>"; };
+		84E754C620EA05BB000401C1 /* PostsDisplayManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsDisplayManagerTests.swift; sourceTree = "<group>"; };
+		84E754C820EA05C7000401C1 /* PostsTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCellTests.swift; sourceTree = "<group>"; };
+		84E754CA20EA1B84000401C1 /* MockBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBaseViewController.swift; sourceTree = "<group>"; };
+		84E754CC20EA1CE3000401C1 /* MockBaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBaseTableViewController.swift; sourceTree = "<group>"; };
+		84E754CE20EA3464000401C1 /* PostsOutletsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsOutletsTests.swift; sourceTree = "<group>"; };
+		84E754D320EB2A14000401C1 /* PostsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsPresenterTests.swift; sourceTree = "<group>"; };
+		84E754D520EB36E5000401C1 /* PostsRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRouterTests.swift; sourceTree = "<group>"; };
+		84E754D720EB36F7000401C1 /* PostsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsInteractorTests.swift; sourceTree = "<group>"; };
+		84E754DA20EB4D34000401C1 /* EditTextMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextMocks.swift; sourceTree = "<group>"; };
+		84E754DD20EB76B6000401C1 /* PostMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMocks.swift; sourceTree = "<group>"; };
+		84E754DF20EC7C68000401C1 /* TextEditBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditBaseTests.swift; sourceTree = "<group>"; };
+		84E754E220EC7E18000401C1 /* TextEditViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditViewControllerTests.swift; sourceTree = "<group>"; };
+		84E754E420EC88FC000401C1 /* TextEditPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditPresenterTests.swift; sourceTree = "<group>"; };
+		84E754E620EC9565000401C1 /* TextEditRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditRouterTests.swift; sourceTree = "<group>"; };
+		84E754E820EC9ADA000401C1 /* PostBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostBaseTests.swift; sourceTree = "<group>"; };
+		84E754EA20EC9B79000401C1 /* PostViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewControllerTests.swift; sourceTree = "<group>"; };
+		84E754EC20ECA168000401C1 /* PostPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPresenterTests.swift; sourceTree = "<group>"; };
+		84E754EE20ECCBF5000401C1 /* PostRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRouterTests.swift; sourceTree = "<group>"; };
+		84E754F020ECCC9D000401C1 /* PostInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInteractorTests.swift; sourceTree = "<group>"; };
+		84E754F220ECDDD5000401C1 /* TextEditOutletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditOutletTests.swift; sourceTree = "<group>"; };
+		84E754F420ECDF82000401C1 /* PostOutletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostOutletTests.swift; sourceTree = "<group>"; };
+		84E7550520EF6014000401C1 /* CreatePostMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostMocks.swift; sourceTree = "<group>"; };
 		854359AE1ADC9561752B3FF8 /* FirstModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleInput.swift; sourceTree = "<group>"; };
 		8EB40BE0998745C0D4F5173B /* CreatePostViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
 		8EE291864E216988D61DAC64 /* Pods_ViperKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E18B3133E0257403A70838 /* SearchInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
 		971CB1FFE83049B0DFE2B61E /* SegmentControlTestRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentControlTestRouterInput.swift; sourceTree = "<group>"; };
+		9775C31296516C6C9A9288F9 /* Pods_ViperKitExample_ViperKitExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperKitExample_ViperKitExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6F7D30873441107E43E0B3 /* FirstViewIO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstViewIO.swift; sourceTree = "<group>"; };
 		9BC289CD5C702EFA03D48E7A /* PostModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostModuleInput.swift; sourceTree = "<group>"; };
 		9D7C8D1B9884C03DC4DCDF59 /* FirstRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstRouter.swift; sourceTree = "<group>"; };
@@ -302,6 +431,7 @@
 		A145E69DD91A4387428CF53D /* PostsMainViewIO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostsMainViewIO.swift; sourceTree = "<group>"; };
 		A1C50B0BB5536A3BF1926B34 /* FirstInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstInteractor.swift; sourceTree = "<group>"; };
 		A59F6E263EE2DDCBB68A9340 /* MainInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		A72F8EF99AE02FAC86C84076 /* Pods-ViperKitExample-ViperKitExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperKitExample-ViperKitExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperKitExample-ViperKitExampleUITests/Pods-ViperKitExample-ViperKitExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA966D0E428CE69BE8AF82DC /* TextEditRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextEditRouterInput.swift; sourceTree = "<group>"; };
 		AECC0E51198BD2E893294165 /* TextEditInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextEditInteractor.swift; sourceTree = "<group>"; };
 		B043DE5CB7F1758E11E57081 /* MainPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
@@ -328,6 +458,7 @@
 		E5F240E14A8D6606BAB25640 /* SegmentControlTestRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentControlTestRouter.swift; sourceTree = "<group>"; };
 		E83087A1F23ACA1931C6998A /* PostInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostInteractor.swift; sourceTree = "<group>"; };
 		E8F9D2CFB42DA08ADA94B2C9 /* FirstRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstRouterInput.swift; sourceTree = "<group>"; };
+		E9290F20E60BFB47737B623D /* Pods-ViperKitExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperKitExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperKitExampleTests/Pods-ViperKitExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9FCE39F4DD15F080C8074C7 /* TextEditModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextEditModuleInput.swift; sourceTree = "<group>"; };
 		EA64C5266521D62529834B98 /* FirstPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstPresenter.swift; sourceTree = "<group>"; };
 		EE7E98ECB89B54C167FB43BC /* CreatePostRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreatePostRouter.swift; sourceTree = "<group>"; };
@@ -350,6 +481,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F7118AD30E1CE45AB69388 /* Pods_ViperKitExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D0973620D3939800E0851C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AF64D4271260303CA73F02 /* Pods_ViperKitExample_ViperKitExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +745,7 @@
 				8410BDEE20033CB500508AD5 /* Products */,
 				8410BDEF20033CB500508AD5 /* ViperKitExample */,
 				8410BE0420033CB500508AD5 /* ViperKitExampleTests */,
+				84D0973A20D3939800E0851C /* ViperKitExampleUITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -613,6 +754,7 @@
 			children = (
 				8410BDED20033CB500508AD5 /* ViperKitExample.app */,
 				8410BE0120033CB500508AD5 /* ViperKitExampleTests.xctest */,
+				84D0973920D3939800E0851C /* ViperKitExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -633,8 +775,11 @@
 		8410BE0420033CB500508AD5 /* ViperKitExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				84B7E4BB20E2283100B5A4C4 /* UnitTests */,
+				84B7E4B520E0F8D700B5A4C4 /* KIFTests */,
 				8410BE0720033CB500508AD5 /* Info.plist */,
 				8410BE0520033CB500508AD5 /* ViperKitExampleTests.swift */,
+				84B7E43720D7812300B5A4C4 /* ViperKitExampleTests-Bridging-Header.h */,
 			);
 			path = ViperKitExampleTests;
 			sourceTree = "<group>";
@@ -642,10 +787,14 @@
 		8410BE1020033CEB00508AD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84B7E42520D77CE300B5A4C4 /* KIF.framework */,
 				8410BE1120033CEB00508AD5 /* DiKit.framework */,
 				8410BE1220033CEB00508AD5 /* LaunchKit.framework */,
 				8410BE1320033CEB00508AD5 /* ViperKit.framework */,
 				8EE291864E216988D61DAC64 /* Pods_ViperKitExample.framework */,
+				78E688E85D935D4A5D19791F /* Pods_ViperKitExampleUITests.framework */,
+				7A76862B1DC6C7476A986F56 /* Pods_ViperKitExampleTests.framework */,
+				9775C31296516C6C9A9288F9 /* Pods_ViperKitExample_ViperKitExampleUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -724,6 +873,7 @@
 				84AF6FD7201060F40016F987 /* KeyboardLayoutConstaint.swift */,
 				84AF6FD92010617C0016F987 /* EmptySegue.swift */,
 				84AF6FDB201061FB0016F987 /* SegmentSegue.swift */,
+				84B7E44220DBB38F00B5A4C4 /* ViperKitExamplePKHUD.swift */,
 			);
 			path = CommonViews;
 			sourceTree = "<group>";
@@ -734,6 +884,83 @@
 				84AF6FDE20119B820016F987 /* SearchTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		84B7E42720D7806D00B5A4C4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84B7E42820D7808000B5A4C4 /* UIConstants.swift */,
+				84B7E44F20E0B85900B5A4C4 /* UIStorage.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84B7E42A20D7809200B5A4C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84B7E42B20D780A300B5A4C4 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84B7E42D20D780AE00B5A4C4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				84B7E42E20D780BF00B5A4C4 /* BaseUITests.swift */,
+				84B7E43020D780D400B5A4C4 /* SigninUITests.swift */,
+				84B7E43A20D7B63A00B5A4C4 /* PostsUITests.swift */,
+				84B7E44420DBB71700B5A4C4 /* TextEditUITests.swift */,
+				84B7E44A20DCB92900B5A4C4 /* PostUITests.swift */,
+				84B7E4B620E1FBAD00B5A4C4 /* SearchUITests.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		84B7E43220D780DB00B5A4C4 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				84B7E43320D780F000B5A4C4 /* CommonSteps.swift */,
+				84B7E43520D780FA00B5A4C4 /* SigninSteps.swift */,
+				84B7E43C20D7B83D00B5A4C4 /* PostsSteps.swift */,
+				84B7E44620DBB78400B5A4C4 /* EditTextSteps.swift */,
+				84B7E44C20DCB94700B5A4C4 /* PostSteps.swift */,
+				84B7E4B820E1FBCA00B5A4C4 /* SearchSteps.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		84B7E4B520E0F8D700B5A4C4 /* KIFTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B7E43220D780DB00B5A4C4 /* Steps */,
+				84B7E42D20D780AE00B5A4C4 /* Features */,
+				84B7E42A20D7809200B5A4C4 /* Extensions */,
+				84B7E42720D7806D00B5A4C4 /* Helpers */,
+			);
+			path = KIFTests;
+			sourceTree = "<group>";
+		};
+		84B7E4BB20E2283100B5A4C4 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E7550420EF5FFB000401C1 /* CreatePostTests */,
+				84E754DC20EB76A9000401C1 /* PostTests */,
+				84E754D920EB4D1F000401C1 /* EditTextTests */,
+				84E754BD20E9D91F000401C1 /* CommonMocks */,
+				84E754B820E9D3AE000401C1 /* PostsTests */,
+				84E7549220E5E51B000401C1 /* SigninTests */,
+				84B7E4BC20E2283900B5A4C4 /* SplashTests */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		84B7E4BC20E2283900B5A4C4 /* SplashTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B7E4BD20E2284A00B5A4C4 /* SplashTests.swift */,
+				84B7E4C220E22D7600B5A4C4 /* SplashMocks.swift */,
+			);
+			path = SplashTests;
 			sourceTree = "<group>";
 		};
 		84BAE09420071CFE0017D436 /* Presenter */ = {
@@ -991,6 +1218,134 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		84D0973A20D3939800E0851C /* ViperKitExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D0975120D3986500E0851C /* Constants */,
+				84D0974A20D3956A00E0851C /* Extensions */,
+				84D0974820D3955800E0851C /* Feautres */,
+				84D0974920D3956200E0851C /* Steps */,
+				84D0973D20D3939800E0851C /* Info.plist */,
+				84D0974520D394F300E0851C /* ViperKitExampleUITests-Bridging-Header.h */,
+				84D0975620D3B85300E0851C /* DefaultTest.swift */,
+			);
+			path = ViperKitExampleUITests;
+			sourceTree = "<group>";
+		};
+		84D0974820D3955800E0851C /* Feautres */ = {
+			isa = PBXGroup;
+			children = (
+				84D0974B20D3959200E0851C /* BaseUITests.swift */,
+				84D0974F20D397B600E0851C /* SigninTests.swift */,
+			);
+			path = Feautres;
+			sourceTree = "<group>";
+		};
+		84D0974920D3956200E0851C /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				84D0975420D39C8600E0851C /* CommonSteps.swift */,
+				84D0974D20D3979900E0851C /* SigninSteps.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		84D0974A20D3956A00E0851C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84D0974320D394A600E0851C /* KIF+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84D0975120D3986500E0851C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				84D0975220D3988B00E0851C /* UIConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		84E7549220E5E51B000401C1 /* SigninTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E7549320E5E532000401C1 /* SigninMocks.swift */,
+				84E7549520E5F08E000401C1 /* SigninTests.swift */,
+			);
+			path = SigninTests;
+			sourceTree = "<group>";
+		};
+		84E754B820E9D3AE000401C1 /* PostsTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E754B920E9D3C2000401C1 /* PostsMocks.swift */,
+				84E754C220E9DEE2000401C1 /* PostsTests.swift */,
+				84E754D220EB29FD000401C1 /* ViewTests */,
+				84E754D320EB2A14000401C1 /* PostsPresenterTests.swift */,
+				84E754D520EB36E5000401C1 /* PostsRouterTests.swift */,
+				84E754D720EB36F7000401C1 /* PostsInteractorTests.swift */,
+			);
+			path = PostsTests;
+			sourceTree = "<group>";
+		};
+		84E754BD20E9D91F000401C1 /* CommonMocks */ = {
+			isa = PBXGroup;
+			children = (
+				84E754BE20E9D941000401C1 /* AuthorizationServiceStub.swift */,
+				84E754C020E9D9AF000401C1 /* PostServiceStub.swift */,
+				84E754BB20E9D427000401C1 /* MockServicesAssembly.swift */,
+				84E754CA20EA1B84000401C1 /* MockBaseViewController.swift */,
+				84E754CC20EA1CE3000401C1 /* MockBaseTableViewController.swift */,
+			);
+			path = CommonMocks;
+			sourceTree = "<group>";
+		};
+		84E754D220EB29FD000401C1 /* ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E754C420EA05AF000401C1 /* PostsViewControllerTests.swift */,
+				84E754C620EA05BB000401C1 /* PostsDisplayManagerTests.swift */,
+				84E754C820EA05C7000401C1 /* PostsTableViewCellTests.swift */,
+				84E754CE20EA3464000401C1 /* PostsOutletsTests.swift */,
+			);
+			path = ViewTests;
+			sourceTree = "<group>";
+		};
+		84E754D920EB4D1F000401C1 /* EditTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E754DA20EB4D34000401C1 /* EditTextMocks.swift */,
+				84E754DF20EC7C68000401C1 /* TextEditBaseTests.swift */,
+				84E754E220EC7E18000401C1 /* TextEditViewControllerTests.swift */,
+				84E754E420EC88FC000401C1 /* TextEditPresenterTests.swift */,
+				84E754E620EC9565000401C1 /* TextEditRouterTests.swift */,
+				84E754F220ECDDD5000401C1 /* TextEditOutletTests.swift */,
+			);
+			path = EditTextTests;
+			sourceTree = "<group>";
+		};
+		84E754DC20EB76A9000401C1 /* PostTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E754DD20EB76B6000401C1 /* PostMocks.swift */,
+				84E754E820EC9ADA000401C1 /* PostBaseTests.swift */,
+				84E754EA20EC9B79000401C1 /* PostViewControllerTests.swift */,
+				84E754EC20ECA168000401C1 /* PostPresenterTests.swift */,
+				84E754EE20ECCBF5000401C1 /* PostRouterTests.swift */,
+				84E754F020ECCC9D000401C1 /* PostInteractorTests.swift */,
+				84E754F420ECDF82000401C1 /* PostOutletTests.swift */,
+			);
+			path = PostTests;
+			sourceTree = "<group>";
+		};
+		84E7550420EF5FFB000401C1 /* CreatePostTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E7550520EF6014000401C1 /* CreatePostMocks.swift */,
+			);
+			path = CreatePostTests;
+			sourceTree = "<group>";
+		};
 		861C9D63A5BB9D658CE405AB /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
@@ -1042,6 +1397,10 @@
 			children = (
 				5F999BA933DCDD6BD067E1F0 /* Pods-ViperKitExample.debug.xcconfig */,
 				DE5487E7308B0F22C55F997B /* Pods-ViperKitExample.release.xcconfig */,
+				E9290F20E60BFB47737B623D /* Pods-ViperKitExampleTests.debug.xcconfig */,
+				2588E927BC252CEB76DAC4A5 /* Pods-ViperKitExampleTests.release.xcconfig */,
+				A72F8EF99AE02FAC86C84076 /* Pods-ViperKitExample-ViperKitExampleUITests.debug.xcconfig */,
+				8485A8BA51A452211ED92F70 /* Pods-ViperKitExample-ViperKitExampleUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1288,7 +1647,6 @@
 				8410BDEA20033CB500508AD5 /* Frameworks */,
 				8410BDEB20033CB500508AD5 /* Resources */,
 				9A5A3FADE980C7A0AC302C5B /* [CP] Embed Pods Frameworks */,
-				0856AB2A88C9319A13C6045E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1303,9 +1661,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8410BE0D20033CB500508AD5 /* Build configuration list for PBXNativeTarget "ViperKitExampleTests" */;
 			buildPhases = (
+				93AC71612A23FE00CF132C9D /* [CP] Check Pods Manifest.lock */,
 				8410BDFD20033CB500508AD5 /* Sources */,
 				8410BDFE20033CB500508AD5 /* Frameworks */,
 				8410BDFF20033CB500508AD5 /* Resources */,
+				E69B95851F930913DDD5BC21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1317,13 +1677,33 @@
 			productReference = 8410BE0120033CB500508AD5 /* ViperKitExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		84D0973820D3939800E0851C /* ViperKitExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D0974220D3939800E0851C /* Build configuration list for PBXNativeTarget "ViperKitExampleUITests" */;
+			buildPhases = (
+				7F4942936F3A0431A7B39919 /* [CP] Check Pods Manifest.lock */,
+				84D0973520D3939800E0851C /* Sources */,
+				84D0973620D3939800E0851C /* Frameworks */,
+				84D0973720D3939800E0851C /* Resources */,
+				52521077B53FED5E3B62B52E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D0973F20D3939800E0851C /* PBXTargetDependency */,
+			);
+			name = ViperKitExampleUITests;
+			productName = ViperKitExampleUITests;
+			productReference = 84D0973920D3939800E0851C /* ViperKitExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		8410BDE520033CB500508AD5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = galuzokb;
 				TargetAttributes = {
@@ -1333,6 +1713,13 @@
 					};
 					8410BE0020033CB500508AD5 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8410BDEC20033CB500508AD5;
+					};
+					84D0973820D3939800E0851C = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8410BDEC20033CB500508AD5;
 					};
@@ -1353,6 +1740,7 @@
 			targets = (
 				8410BDEC20033CB500508AD5 /* ViperKitExample */,
 				8410BE0020033CB500508AD5 /* ViperKitExampleTests */,
+				84D0973820D3939800E0851C /* ViperKitExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1383,22 +1771,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84D0973720D3939800E0851C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0856AB2A88C9319A13C6045E /* [CP] Copy Pods Resources */ = {
+		52521077B53FED5E3B62B52E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ViperKitExample-ViperKitExampleUITests/Pods-ViperKitExample-ViperKitExampleUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Dip/Dip.framework",
+				"${BUILT_PRODUCTS_DIR}/Dip-UI/Dip_UI.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ViperKit/ViperKit.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dip_UI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViperKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperKitExample/Pods-ViperKitExample-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperKitExample-ViperKitExampleUITests/Pods-ViperKitExample-ViperKitExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F4942936F3A0431A7B39919 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViperKitExample-ViperKitExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93AC71612A23FE00CF132C9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViperKitExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9A5A3FADE980C7A0AC302C5B /* [CP] Embed Pods Frameworks */ = {
@@ -1447,6 +1893,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69B95851F930913DDD5BC21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ViperKitExampleTests/Pods-ViperKitExampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KIF/KIF.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KIF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViperKitExampleTests/Pods-ViperKitExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1579,6 +2045,7 @@
 				CF5B975B6D6A0838AC5AFFBC /* SegmentControlTestViewIO.swift in Sources */,
 				4E9F380C8DD50D84D0C9F6FE /* FirstAssembly.swift in Sources */,
 				84AF6FE52011D9FA0016F987 /* BaseTableViewController.swift in Sources */,
+				84B7E44320DBB38F00B5A4C4 /* ViperKitExamplePKHUD.swift in Sources */,
 				71A77A6B33F2DDE27DECCC84 /* FirstInteractor.swift in Sources */,
 				4495DBCD3DFF712DE80A90DD /* FirstInteractorIO.swift in Sources */,
 				9BBE89DA67D784A0B49A7740 /* FirstPresenter.swift in Sources */,
@@ -1603,7 +2070,68 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E754D820EB36F7000401C1 /* PostsInteractorTests.swift in Sources */,
+				84B7E4B920E1FBCA00B5A4C4 /* SearchSteps.swift in Sources */,
+				84B7E43120D780D400B5A4C4 /* SigninUITests.swift in Sources */,
+				84E754C720EA05BB000401C1 /* PostsDisplayManagerTests.swift in Sources */,
+				84B7E43620D780FA00B5A4C4 /* SigninSteps.swift in Sources */,
+				84B7E42F20D780BF00B5A4C4 /* BaseUITests.swift in Sources */,
+				84E754C920EA05C7000401C1 /* PostsTableViewCellTests.swift in Sources */,
+				84E754E020EC7C68000401C1 /* TextEditBaseTests.swift in Sources */,
+				84E754E920EC9ADA000401C1 /* PostBaseTests.swift in Sources */,
+				84E754BF20E9D941000401C1 /* AuthorizationServiceStub.swift in Sources */,
+				84E754E720EC9566000401C1 /* TextEditRouterTests.swift in Sources */,
 				8410BE0620033CB500508AD5 /* ViperKitExampleTests.swift in Sources */,
+				84B7E4B720E1FBAD00B5A4C4 /* SearchUITests.swift in Sources */,
+				84E754F320ECDDD6000401C1 /* TextEditOutletTests.swift in Sources */,
+				84E754F120ECCC9D000401C1 /* PostInteractorTests.swift in Sources */,
+				84B7E42C20D780A300B5A4C4 /* Extensions.swift in Sources */,
+				84E7549620E5F08E000401C1 /* SigninTests.swift in Sources */,
+				84E754DB20EB4D34000401C1 /* EditTextMocks.swift in Sources */,
+				84E754DE20EB76B6000401C1 /* PostMocks.swift in Sources */,
+				84E754E520EC88FC000401C1 /* TextEditPresenterTests.swift in Sources */,
+				84E754E320EC7E18000401C1 /* TextEditViewControllerTests.swift in Sources */,
+				84E754F520ECDF82000401C1 /* PostOutletTests.swift in Sources */,
+				84B7E44D20DCB94700B5A4C4 /* PostSteps.swift in Sources */,
+				84E7550620EF6014000401C1 /* CreatePostMocks.swift in Sources */,
+				84E754D620EB36E5000401C1 /* PostsRouterTests.swift in Sources */,
+				84B7E43D20D7B83D00B5A4C4 /* PostsSteps.swift in Sources */,
+				84E754CB20EA1B84000401C1 /* MockBaseViewController.swift in Sources */,
+				84E754CF20EA3464000401C1 /* PostsOutletsTests.swift in Sources */,
+				84E754C520EA05AF000401C1 /* PostsViewControllerTests.swift in Sources */,
+				84B7E43420D780F000B5A4C4 /* CommonSteps.swift in Sources */,
+				84E754EF20ECCBF5000401C1 /* PostRouterTests.swift in Sources */,
+				84E754EB20EC9B79000401C1 /* PostViewControllerTests.swift in Sources */,
+				84B7E4C320E22D7600B5A4C4 /* SplashMocks.swift in Sources */,
+				84E754BA20E9D3C2000401C1 /* PostsMocks.swift in Sources */,
+				84B7E44B20DCB92900B5A4C4 /* PostUITests.swift in Sources */,
+				84B7E44720DBB78400B5A4C4 /* EditTextSteps.swift in Sources */,
+				84B7E42920D7808000B5A4C4 /* UIConstants.swift in Sources */,
+				84B7E45020E0B85900B5A4C4 /* UIStorage.swift in Sources */,
+				84E754CD20EA1CE3000401C1 /* MockBaseTableViewController.swift in Sources */,
+				84E754D420EB2A14000401C1 /* PostsPresenterTests.swift in Sources */,
+				84E754C320E9DEE2000401C1 /* PostsTests.swift in Sources */,
+				84E754BC20E9D427000401C1 /* MockServicesAssembly.swift in Sources */,
+				84B7E44520DBB71700B5A4C4 /* TextEditUITests.swift in Sources */,
+				84E7549420E5E532000401C1 /* SigninMocks.swift in Sources */,
+				84E754C120E9D9AF000401C1 /* PostServiceStub.swift in Sources */,
+				84B7E4BE20E2284A00B5A4C4 /* SplashTests.swift in Sources */,
+				84B7E43B20D7B63A00B5A4C4 /* PostsUITests.swift in Sources */,
+				84E754ED20ECA168000401C1 /* PostPresenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D0973520D3939800E0851C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D0974C20D3959200E0851C /* BaseUITests.swift in Sources */,
+				84D0974E20D3979900E0851C /* SigninSteps.swift in Sources */,
+				84D0975320D3988B00E0851C /* UIConstants.swift in Sources */,
+				84D0974420D394A600E0851C /* KIF+extensions.swift in Sources */,
+				84D0975720D3B85300E0851C /* DefaultTest.swift in Sources */,
+				84D0975520D39C8600E0851C /* CommonSteps.swift in Sources */,
+				84D0975020D397B600E0851C /* SigninTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1614,6 +2142,11 @@
 			isa = PBXTargetDependency;
 			target = 8410BDEC20033CB500508AD5 /* ViperKitExample */;
 			targetProxy = 8410BE0220033CB500508AD5 /* PBXContainerItemProxy */;
+		};
+		84D0973F20D3939800E0851C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8410BDEC20033CB500508AD5 /* ViperKitExample */;
+			targetProxy = 84D0973E20D3939800E0851C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1781,15 +2314,19 @@
 		};
 		8410BE0E20033CB500508AD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9290F20E60BFB47737B623D /* Pods-ViperKitExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QHV8CJT48D;
 				INFOPLIST_FILE = ViperKitExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = galuzokb.ViperKitExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViperKitExampleTests/ViperKitExampleTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViperKitExample.app/ViperKitExample";
@@ -1798,18 +2335,66 @@
 		};
 		8410BE0F20033CB500508AD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2588E927BC252CEB76DAC4A5 /* Pods-ViperKitExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QHV8CJT48D;
 				INFOPLIST_FILE = ViperKitExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = galuzokb.ViperKitExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViperKitExampleTests/ViperKitExampleTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViperKitExample.app/ViperKitExample";
+			};
+			name = Release;
+		};
+		84D0974020D3939800E0851C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72F8EF99AE02FAC86C84076 /* Pods-ViperKitExample-ViperKitExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHV8CJT48D;
+				INFOPLIST_FILE = ViperKitExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Softomate.ViperKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViperKitExampleUITests/ViperKitExampleUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViperKitExample;
+			};
+			name = Debug;
+		};
+		84D0974120D3939800E0851C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8485A8BA51A452211ED92F70 /* Pods-ViperKitExample-ViperKitExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHV8CJT48D;
+				INFOPLIST_FILE = ViperKitExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Softomate.ViperKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ViperKitExampleUITests/ViperKitExampleUITests-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViperKitExample;
 			};
 			name = Release;
 		};
@@ -1839,6 +2424,15 @@
 			buildConfigurations = (
 				8410BE0E20033CB500508AD5 /* Debug */,
 				8410BE0F20033CB500508AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D0974220D3939800E0851C /* Build configuration list for PBXNativeTarget "ViperKitExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D0974020D3939800E0851C /* Debug */,
+				84D0974120D3939800E0851C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

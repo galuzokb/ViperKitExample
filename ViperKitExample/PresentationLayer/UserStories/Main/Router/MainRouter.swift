@@ -10,4 +10,8 @@ import ViperKit
 
 class MainRouter: MainRouterInput {
     weak var segueHandler: SegueHandler?
+    
+    func close() {
+        segueHandler?.closeModule()
+    }
 }

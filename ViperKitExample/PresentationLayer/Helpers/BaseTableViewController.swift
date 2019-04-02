@@ -10,15 +10,15 @@ import UIKit
 import ViperKit
 import PKHUD
 
-extension BaseTableViewController: ViewInput {
-    
+class ViperKitExampleBaseTableViewController: BaseTableViewController, ViewInput {
     open override func viewDidLoad() {
-//        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
-//        view.addGestureRecognizer(tap)
+        //        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        //        view.addGestureRecognizer(tap)
     }
     
     public func startIndication() {
         HUD.show(.progress)
+        PKHUD.sharedHUD.contentView = MyHUD()
     }
     
     public func stopIndication() {
@@ -44,9 +44,7 @@ extension BaseTableViewController: ViewInput {
         alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default) { _ in })
         present(alertController, animated: true)
     }
-}
-
-extension BaseTableViewController {
+    
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }

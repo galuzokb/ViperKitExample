@@ -10,13 +10,15 @@ import Foundation
 import UIKit
 import ViperKit
 
-class SearchViewController: BaseTableViewController {
+class SearchViewController: ViperKitExampleBaseTableViewController {
     var output: SearchViewOutput!
     var moduleInput: ModuleInput!
     
     var isSearching: Bool = false
     
     var displayManager: SearchDisplayManager!
+    
+    private var search: UISearchController?
     
     // MARK: Outlets
     
@@ -27,7 +29,11 @@ class SearchViewController: BaseTableViewController {
         output.viewIsReady()
     }
     
-    // MARK: IBActions
+    // MARK: Public Methods
+    
+    public func hideSearch() {
+        search?.dismiss(animated: false, completion: nil)
+    }
 }
 
 // MARK: - View Input
@@ -37,10 +43,11 @@ extension SearchViewController: SearchViewInput {
         displayManager = SearchDisplayManager(tableView: tableView)
         displayManager.delegate = self
         
-        let search = UISearchController(searchResultsController: nil)
+        search = UISearchController(searchResultsController: nil)
+        search?.searchBar.accessibilityLabel = "Search Search Bar"
 //        search.searchResultsUpdater = self
-        search.dimsBackgroundDuringPresentation = false
-        search.searchBar.delegate = self
+        search?.dimsBackgroundDuringPresentation = false
+        search?.searchBar.delegate = self
         if #available(iOS 11.0, *) {
             navigationItem.hidesSearchBarWhenScrolling = false
         }
@@ -50,7 +57,7 @@ extension SearchViewController: SearchViewInput {
 //            search.searchResultsUpdater = self
         } else {
             // Fallback on earlier versions
-            self.navigationItem.titleView = search.searchBar
+            self.navigationItem.titleView = search?.searchBar
         }
     }
     

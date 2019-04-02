@@ -9,8 +9,12 @@
 import ViperKit
 
 protocol MainViewInput: class, ViewInput {
+    func selectedIndex(_ index: Int)
+    func hideSearch()
 }
 
 protocol MainViewOutput {
     func viewIsReady()
+    func close()
+    func shouldSelectIndex(_ index: Int)
 }

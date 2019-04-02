@@ -11,6 +11,9 @@ class MainPresenter {
     let interactor: MainInteractorInput
     let router: MainRouterInput
     
+    var indexToSelect: Int?
+    var lastSelectedIndex: Int?
+    
     init(interactor: MainInteractorInput, router: MainRouterInput) {
         self.interactor = interactor
         self.router = router
@@ -26,7 +29,18 @@ extension MainPresenter: MainModuleInput {
 //MARK: - View output
 
 extension MainPresenter: MainViewOutput {
-    func viewIsReady() {
+    func viewIsReady() {}
+    
+    func close() {
+        router.close()
+    }
+    
+    func shouldSelectIndex(_ index: Int) {
+        if let lastSelectedIndex = lastSelectedIndex, lastSelectedIndex == 1 {
+            view?.hideSearch()
+        }
+        lastSelectedIndex = index
+        view?.selectedIndex(index)
     }
 }
 

@@ -8,21 +8,33 @@
 
 import Foundation
 
+enum AuthErrorType {
+    case wrongUsername
+    case wrongPassword
+    case wrongCredentials
+}
+
 class AuthorizationService: AuthorizationServiceType {
     
     let userDefaults = UserDefaults.standard
-    let validCredentials = SigninCredentials(username: "qwe", password: "123")
+    let validCredentials = SigninCredentials(username: "correctUsername", password: "correctPassword")
     
     var isAuthorized: Bool {
         return userDefaults.bool(forKey: "com.galuzokb.ViperKitExample.isAuthorized")
     }
     
-    func signin(_ credentials: SigninCredentials) -> Bool {
-        if credentials.username == "qwe" && credentials.password == "123" {
+    func signin(_ credentials: SigninCredentials) -> AuthErrorType? {
+        if credentials.username != validCredentials.username &&
+            credentials.password != validCredentials.password {
+            return .wrongCredentials
+        } else if credentials.username != validCredentials.username {
+            return .wrongUsername
+        } else if credentials.password != validCredentials.password {
+            return .wrongPassword
+        } else {
             userDefaults.set(true, forKey: "com.galuzokb.ViperKitExample.isAuthorized")
-            return true
+            return nil
         }
-        return false
     }
     
     func logout() {
